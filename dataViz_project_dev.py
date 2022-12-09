@@ -34,7 +34,7 @@ df_18=pd.DataFrame()
 def chargement_20():
     
     #Lecture des dataframe
-    df_20_initial = pd.read_csv("./data/sample_2020.csv",low_memory=False)
+    df_20_initial = pd.read_csv("data/sample_2020.csv",low_memory=False)
 
     #Sélection des colonnes utiles pour notre user
     df_20 = df_20_initial[["date_mutation", "nature_mutation", "valeur_fonciere", "code_departement", "nombre_pieces_principales", "latitude", "longitude"]]
