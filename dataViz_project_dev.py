@@ -54,7 +54,7 @@ def chargement_20():
 def chargement_19():
     
     #Lecture des dataframe
-    df_19_initial = pd.read_csv("data/sample_2019.csv",low_memory=False)
+    df_19_initial = pd.read_csv("data/sample2_2019.csv",low_memory=False)
 
     #Sélection des colonnes utiles pour notre user
     df_19 = df_19_initial[["date_mutation", "nature_mutation", "valeur_fonciere", "code_departement", "nombre_pieces_principales", "latitude", "longitude"]]
@@ -76,7 +76,7 @@ def chargement_19():
 def chargement_18():
     
     #Lecture des dataframe
-    df_18_initial = pd.read_csv("data/sample_2018.csv",low_memory=False)
+    df_18_initial = pd.read_csv("data/sample2_2018.csv",low_memory=False)
 
     #Sélection des colonnes utiles pour notre user
     df_18 = df_18_initial[["date_mutation", "nature_mutation", "valeur_fonciere", "code_departement", "nombre_pieces_principales", "latitude", "longitude"]]
